@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: darkmagenta;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.main_game {
+  width: 340px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+.game_nam {
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: solid brown;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.game {
+  margin-left: 90px;
+}
+.game_nam {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hap {
+  background-color: aqua;
+  width: 500px;
+  height: 450px;
+  margin-left: 460px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.happy img {
+  width: 200px;
+  margin-left: 150px;
+}
+.hap button:hover {
+  background-color: blue;
+}
+.hap button {
+  border-radius: 6px;
+  background: red;
+  color: #fff;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin-left: 100px;
+  margin-top: 70px;
+  transition: 1s;
 }
